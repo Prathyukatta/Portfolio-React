@@ -1,4 +1,6 @@
 {
+  "homepage": "https://Prathyukatta.github.io/Portfolio-React",
+
   "dependencies": {
     "@tailwindcss/vite": "^4.1.4",
     "emailjs-com": "^3.2.0",
@@ -6,5 +8,10 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
+  },
+  "scripts": {
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
