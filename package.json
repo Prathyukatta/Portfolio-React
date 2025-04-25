@@ -6,13 +6,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": " gh-pages -d build",
-    " build ": "vite build",
-    "postinstall": "echo \"fix long path\""
+    "deploy": " gh-pages -d dist",
+    "build": "vite build"
+    
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -20,12 +19,14 @@
     "dist": "^0.1.2",
     "emailjs-com": "^3.2.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-scripts": "^3.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
+    "@typescript-eslint/utils": "^8.31.0",
     "@vitejs/plugin-react": "^4.3.4",
     "autoprefixer": "^10.4.21",
     "eslint": "^9.22.0",
