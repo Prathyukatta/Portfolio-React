@@ -21,6 +21,7 @@
     "inflight": "^1.0.6",
     "lru-cache": "^11.1.0",
     "react-dom": "^19.0.0",
+    "react-scripts": "^5.0.1",
     "uuid": "^11.1.0"
   },
   "devDependencies": {
@@ -38,7 +39,7 @@
     "postcss": "^8.5.3",
     "react": "^19.1.0",
     "tailwindcss": "^4.1.4",
-    "typescript": "^5.8.3",
+    "typescript": "^4.9.5",
     "vite": "^6.3.3"
   },
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
