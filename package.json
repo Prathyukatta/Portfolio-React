@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": " gh-pages -d dist",
     "build": "vite build",
-     "start": "vite preview"
+    "start": "vite preview"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -21,6 +21,7 @@
     "glob": "^11.0.2",
     "inflight": "^1.0.6",
     "lru-cache": "^11.1.0",
+    "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "^5.0.1",
     "uuid": "^11.1.0"
@@ -30,9 +31,9 @@
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@typescript-eslint/utils": "^8.31.0",
-    "@vitejs/plugin-react": "^4.4.1",
+    "@vitejs/plugin-react": "^4.3.4",
     "autoprefixer": "^10.4.21",
-    "eslint": "^9.22.0",
+    "eslint": "^8.57.1",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "gh-pages": "^6.3.0",
